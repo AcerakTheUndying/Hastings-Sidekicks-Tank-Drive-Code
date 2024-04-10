@@ -11,6 +11,9 @@
 #include <frc/Joystick.h>
 #include <frc/PS4Controller.h>
 
+#include <wpi/deprecated.h>
+WPI_IGNORE_DEPRECATED
+
 class Robot : public frc::TimedRobot {
  public:
   Robot() {
